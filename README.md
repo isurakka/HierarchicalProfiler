@@ -2,7 +2,7 @@
 Simple hierarchical profiler. Single threaded usage only. Inspired by [hprof](https://github.com/cmr/hprof).
 
 # Example usage
-```
+```csharp
 var profiler = new HierarchicalProfiler();
 profiler.StartFrame("root");
 
